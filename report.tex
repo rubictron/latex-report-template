@@ -1,0 +1,78 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%% Document class and package options
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[a4paper,12pt]{report}
+
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{listings}
+\usepackage{multicol}
+\usepackage{enumerate}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{longtable}
+% \usepackage{array}
+\usepackage{float}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Include page set-up options
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{pagesetup.cfg}
+
+
+\begin{document}
+% Title PAge
+\include{00_cover/cover}
+
+\renewcommand{\thepage}{\roman{page}} % Start page numbering in roman
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Abstract, Preface, Acknowledgements, Acronyms,list of tables, list of figures
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{01_chapters/00/chapter_00}
+
+
+\renewcommand{\thepage}{\arabic{page}} % Start page numbering in arabic 
+\setcounter{page}{1} % start page numbering from 1
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% CHAPTER inclusions
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\include{01_chapters/01/chapter_01} % Introduction
+\include{01_chapters/02/chapter_02} 
+\include{01_chapters/03/chapter_03}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Bibliography
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage\addcontentsline{toc}{chapter}{Bibliography}
+
+\begin{thebibliography}{5}
+
+\bibitem {bibref-book} Author A.B., Author C.D.E. and Author F.G. (Year): Title of the Book and Edition x, Publisher Name and Address. ISBN.  
+\bibitem {bibref-book-eg} Abelson H., and Susmann G.J. (1985): Structure and Interpretation of Computer Programs. Cambridge, MA, MIT Press, USA. ISBN 81-7758-875-3.  
+
+\bibitem{conf-paper} Author A.B. and Author C.D.E. (Year): Paper Title. Conference Name. Proceedings Details.
+\bibitem{conf-paper-eg} Sirisena E. and Rajgama P.N. (2008): Adaptive Hight Control for UAV under Varying Weather Conditions. IET 5th Symposium on UAV Design and Control. 2-nd Vol, pp. 203-209.
+
+\bibitem{journ-paper} Author A.B. and Author C.D.E. (Year): Title of the paper.
+Journal Name. Volume, Number, Pages.
+\bibitem{journ-paper-eg} Kalman R.E. and Pucy N.S. (1961): New results in linear filtering and prediction theory.
+Transactions of the ASME. Series D, Journal of Basic Engineering.Vol. 83-D, March 1961, pp 95-110.
+
+\bibitem{web-page} Author  A.B. and Author C.D.E. (Year): Web Page or Article Title: Web address.
+\bibitem{web-page-eg} Harpin T. (2001): Using java.lang.reflect.Proxy to Interpose on Java Class Methods. Sun Developer Network (SDN). http://java.sun.com/developer/technicalArticles/JavaLP/Interposing/.
+
+\bibitem{phd-thesis} Author A.B. (Year): Thesis Title. Ph.D. Thesis. University.
+\bibitem{phd-thesis-eg} Viera A.C.G. (2002): Matrix orthogonal polynomials with applications to autoregressive
+modeling and ladder forms, Ph.D. Thesis. Standard University, Standford, CA-USA.
+ 
+\end{thebibliography}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% END OF REPORT
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}

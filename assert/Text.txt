@@ -1,0 +1,6 @@
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.9\textwidth]{images/03/game/game5.png}
+	\end{center}
+	\caption{Bicycle Game - Game Over}
+\end{figure}

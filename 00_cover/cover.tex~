@@ -1,0 +1,105 @@
+
+% Style definitions and re-definitions
+% \newcommand{\logouor}[0]{\begin{center}\includegraphics{00_cover/ruh_logo.jpg}\end{center}\vspace{0.3cm}}
+
+% %\newcommand{\logoepfl}[0]{\begin{center}\includegraphics{00_cover/epfl}\end{center}\vspace{0.3cm}\hrule}
+% %\newcommand{\logolabos}[0] {\begin{center}\includegraphics[width=4.5cm]{00_cover/labos}\end{center}}
+%
+% \renewcommand{\title}[1]{\vspace{2cm}\begin{center}\huge{#1}\end{center}\vspace{2cm}}
+% \renewcommand{\author}[2]{\begin{center}\normalsize{#1} (\normalsize{#2})\end{center}}
+% \newcommand{\department}[1]{\begin{center}\large{#1}\end{center}}
+%
+% \renewcommand{\date}[2]{\begin{center}\normalsize{#1 #2}\end{center}}
+%
+% \newcommand{\supervisor}[4]{\begin{center}\begin{normalsize}{\bf #1}\\#2\\#4\end{normalsize}\end{center}}
+
+
+\thispagestyle{empty}
+
+\begin{center}
+
+\begin{center}
+ \includegraphics[width=2cm,keepaspectratio=true]{./00_cover/uor_logo.jpg}
+ % uor_logo.jpg: 236x331 pixel, 72dpi, 8.33x11.68 cm, bb=0 0 236 331
+\end{center}
+
+\vspace{1.5cm}
+\begin{huge}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Project title
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Title of the Final Year Undergraduate Project
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{huge} \\
+\vspace{1cm}
+
+\begin{normalsize}
+An undergraduate project report submitted to the
+\end{normalsize}\\
+\vspace{1cm}
+
+\begin{large}
+Department of Electrical and Information Engineering\\
+Faculty of Engineering\\
+University of Ruhuna\\
+Sri Lanka
+\end{large}\\
+
+\vspace{1cm}
+
+\begin{normalsize}in partial fulfillment of the requirements for the \end{normalsize}\\
+\vspace{1cm}
+
+\begin{large}\textbf{Degree of Bachelor of Science in Engineering}\end{large}\\
+
+\vspace{1cm}
+\begin{normalsize}by  \end{normalsize}
+\vspace{1cm}
+
+\begin{tabular}[h]{lll}
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ % Names and Registration Numbers
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ R. Rathnaweera	& - & 	RU/E/2005/004\\
+ A. Abekon	& - & 	RU/E/2005/005\\
+ B. Bandara	& - & 	RU/E/2005/006\\
+ C. Kankalu 	& - &	RU/E/2005/007
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{tabular}\\
+\vspace{1cm}
+
+%\date{June, 2009}
+\vspace{1cm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %if one supervisor
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  .............................................. \\
+% Prof. A.B.C. Dee\\
+% (Supervisor)
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% If two supervisors
+\begin{tabular}[h]{lll}
+
+	\begin{tabular}{c}
+	.............................................. \\
+	Prof. A.B.C. Dee\\
+	(Supervisor)
+	\end{tabular}
+&
+	\begin{tabular}{c}
+	.............................................. \\
+	Prof. A.B.C. Dee\\
+	(Co-Supervisor)
+	\end{tabular}
+
+\end{tabular}\\
+% End of "If two supervisors
+
+
+\end{center}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%% END OF FILE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

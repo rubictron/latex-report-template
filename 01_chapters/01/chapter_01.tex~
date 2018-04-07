@@ -1,0 +1,84 @@
+%\index{\footnote{}}
+\chapter{Introduction}%\label{Introduction}
+
+Small paragraph to make reader interested in further reading. 
+
+\section{Background}
+
+Write background of your project.
+%Background, problem statement, available solutions (if any),your solution with justification, timeplan.
+
+\section{Problem Statement}
+
+\subsection{Objectives and Scope}
+
+\subsubsection{Objectives}
+\begin{itemize}
+	\item Objective 1
+	\item Objective 2
+	\item ..
+\end{itemize}
+
+\subsubsection{Scope}
+\begin{itemize}
+	\item Scope 1
+	\item Scope 2
+	\item ..
+\end{itemize}
+
+\subsection{Research Methodology}
+
+
+\section{Module Information}
+
+\subsection{Objectives}
+
+To provide students with the opportunity to integrate and demonstrate the skills and knowledge gathered as an electrical and information engineering undergraduate by working on a supervised project.
+  
+\subsection{Intended Learning Outcomes}
+After following this module, students should be able to do the following:
+\begin{enumerate}
+\item Apply engineering principles to the design and development of the project and carry out sound project analysis, research, engineering design, and project costing, through the application of previously acquired competencies.
+\item Identify key issues and define problems through a project specification (utilizing information acquired from literature researches, equipment suppliers, personal inquiry and site visits as appropriate).
+\item Plan and manage a project by disciplined work through self imposed milestones and deadlines obtained by an analysis of relative workloads and task complexity within the problem at hand.
+\item Make decisions with judgment and confidence (developed through the technical evaluation of equipment and solution alternatives, and considering ethical, social, environmental and economic aspects/factors).
+\item Communicate, present and report (developed through external interactions, progress meetings, project presentations, a journal article and the final report).  
+\end{enumerate}
+
+\subsection{Outline}
+An engineering project in which, under academic supervision, students apply their problem solving skills, their design skills and their accumulated knowledge to specific problem. Projects are similar to industrial problems or are related to research and development. Development of technical writing and oral presentation skills.
+
+\subsection{Organization}
+The module runs through 7th and 8th semesters under main supervision of an academic staff member of the Department. A co-supervisor may appoint from industry or from another Department depend on the requirements of the project.  
+Maximum number of students in a project group is four.
+ 
+\subsection{Mode of Assessment}
+
+\begin{enumerate}
+\item Proposal (10\%) \\
+Scheduled in mid of 7th Semester with components; Report, Viva, Presentation
+\item Progress (30\%)\\
+Scheduled in beginning of 8th Semester with components; Report, Presentation, Viva/Contribution
+\item Defense (Viva, Report/Presentation, contribution, Demonstration) (60\%)\\
+Scheduled in end of 8th Semester with components; Viva/Contribution, Report, Presentation, Quality Assurance
+\end{enumerate}
+
+\begin{itemize}
+	\item Necessary condition to pass the module: Participation of all assessment components and submission of all required documents and applicable hardware/software components. 
+	\item Late submissions will be penalized 10\% of the corresponding assessment component marks for each weekday up to five days; after this no marks will be gained.  
+\end{itemize}
+
+
+% \section{Communication Skills}
+% 
+% Effective communication both oral and written is essential for defending your project.
+% \subsection{Report Writing}
+% See the Chapter \ref{cha:report} for details.   
+% \subsection{Presentation}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%% END OF FILE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
