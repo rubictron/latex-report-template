@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.2.26)  7 APR 2018 11:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.2.26)  18 APR 2018 09:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -333,12 +333,16 @@ Package pdftex.def Info: Requested size: 56.9055pt x 56.89967pt on input line 7
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./00_cover/_Rubictron.jpg>
 ] (./01_chapters/00/chapter_00.tex [1
 
-] [1
+]
+Underfull \hbox (badness 10000) in paragraph at lines 19--25
+
+ []
+
+[1
 
 ] [2
 
-]
-(./report.toc)
+] (./report.toc)
 \tf@toc=\write3
 \openout3 = `report.toc'.
 
@@ -364,19 +368,19 @@ Package pdftex.def Info: Requested size: 56.9055pt x 56.89967pt on input line 7
 
 (./01_chapters/01/chapter_01.tex
 Chapter 1.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 17.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 19.
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 17.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 19.
 <01_chapters/01/figs/exsample.jpg, id=33, 1927.2pt x 779.91376pt>
 File: 01_chapters/01/figs/exsample.jpg Graphic file (type jpg)
 <use 01_chapters/01/figs/exsample.jpg>
 Package pdftex.def Info: 01_chapters/01/figs/exsample.jpg  used on input line 3
-3. on input line 33.
+8. on input line 38.
 Package pdftex.def Info: Requested size: 390.25534pt x 157.93167pt on input lin
-e 33.
+e 38.
  [1
 
 
@@ -416,13 +420,13 @@ AED: lastpage setting LastPage
 ] (./report.aux (./00_cover/cover.aux) (./01_chapters/01/chapter_01.aux)
 (./01_chapters/02/chapter_02.aux) (./01_chapters/03/chapter_03.aux)) ) 
 Here is how much of TeX's memory you used:
- 3788 strings out of 494931
- 52910 string characters out of 6180851
- 116214 words of memory out of 5000000
- 6999 multiletter control sequences out of 15000+600000
+ 3790 strings out of 494931
+ 52940 string characters out of 6180851
+ 116224 words of memory out of 5000000
+ 7001 multiletter control sequences out of 15000+600000
  9873 words of font info for 35 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 41i,12n,43p,401b,258s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,12n,43p,504b,263s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/te
@@ -430,7 +434,7 @@ xmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/share/texlive/texmf-dist/font
 s/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmti12.pfb>
-Output written on report.pdf (13 pages, 815958 bytes).
+Output written on report.pdf (13 pages, 817513 bytes).
 PDF statistics:
  73 PDF objects out of 1000 (max. 8388607)
  49 compressed objects within 1 object stream
